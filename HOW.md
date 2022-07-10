@@ -36,7 +36,6 @@ $ cat clean-sorted-mask-passwords.lst | grep -vE ':3$|:4$' > clean-sorted-1to2-c
 
 Filter masks by length
 ```
-$ cat clean-sorted-3to4-complexity-mask-passwords.lst | grep -vE ':1|:2|:5|:6|:7' > clean-sorted-3to4-complexity-ge8-len-mask-passwords.lst
-
-$ cat clean-sorted-1to2-complexity-mask-passwords.lst | grep -vE ':3|:4|:5|:6|:7' > clean-sorted-1to2-complexity-ge8-len-mask-passwords.lst
+$ cat clean-sorted-3to4-complexity-mask-passwords.lst | grep -vE ':3:3$|:4:3$|:4:4$|:5:3$|:5:4$|:6:3$|:6:4$|:7:3$|:7:4$' > clean-sorted-3to4-complexity-ge8-len-mask-passwords.lst
+$ cat clean-sorted-1to2-complexity-mask-passwords.lst | grep -vE ':1:1$|:1:2$|:2:1$|:2:2$|:3:1$|:3:2$|:4:1$|:4:2$|:5:1$|:5:2$|:6:1$|:6:2$|:7:1$|:7:2$' > clean-sorted-1to2-complexity-ge8-len-mask-passwords.lst
 ```
