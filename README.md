@@ -91,4 +91,4 @@ $ head -n 25 sorted-3to4-complexity-ge8-len-masks.txt
  634268 ?s?l?l?l?d?d?d?d?d?d?d?d:12:3
  613627 ?s?l?l?l?l?d?d?d?d:9:3
 ```
-Made with [maskcat](https://github.com/jakewnuk/maskcat) for [matchmask](https://github.com/jakewnuk/matchmask). 
+See [maskcat](https://github.com/jakewnuk/maskcat), [matchmask](https://github.com/jakewnuk/matchmask), and [submask](https://github.com/jakewnuk/submask), and [920mPasswordMasks](https://github.com/jakewnuk/920mPasswordMasks)
